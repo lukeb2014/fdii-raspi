@@ -9,22 +9,22 @@ Download the repo to a folder:
 `git clone https://github.com/lukeb2014/fdii-raspi`
 
 Create a new branch:
-`git b <name_of_branch>`
+```git b <name_of_branch>```
 
 Checkout (start working on) a branch, noting the default is `master`:
-`git checkout <name_of_branch>`
+```git checkout <name_of_branch>```
 
 Update local code from the online "remote" version:
-`git pull`
+```git pull```
 
 Add changes to a new potential code version:
-`git add .`
+```git add .```
 
 Commit changes (makes code push-able)
-`git commit -m "created a new commit"`
+```git commit -m "created a new commit"```
 
 Push changes to remote
-`git push origin <name_of_branch>`
+```git push origin <name_of_branch>```
 
 Typically, code should not be pushed directly to the `master` branch. Instead, develop a block of code in a separate branch and perform a "merge request" later. Do merge requests on github.com.
 
